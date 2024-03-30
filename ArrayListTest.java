@@ -56,7 +56,6 @@ public class ArrayListTest {
     }
     @Test
     public void testAddAtIndex() {
-        ArrayList<Integer> list = new ArrayList<>();
         list.AddAtIndex(0, 1);
         list.AddAtIndex(1, 2);
         list.AddAtIndex(2, 3);
